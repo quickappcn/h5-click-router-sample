@@ -1,0 +1,54 @@
+p {
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #000000;
+}
+.container .desc-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc {
+  display: flex;
+}
+
+.desc-img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 1.3rem;
+  border-radius: 1rem
+}
+.desc-text {
+  flex: 1;
+  margin: 1.2rem 0.5rem;
+}
+.desc-text-title {
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: bold;
+  font-size: 1.5rem
+}
+
+.main-img {
+  width: 100%
+}
+
+.hint {
+  text-align:center;
+}
+
+.finger-con {
+  display: flex;
+  justify-content: center;
+}
+
+.finger {
+  margin-top: 1rem;
+  transform: rotate(90deg);
+  width: 3rem;
+}
+
+.foot-holder {
+  height: 6rem
+}
