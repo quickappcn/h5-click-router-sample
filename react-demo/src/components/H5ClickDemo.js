@@ -13,13 +13,13 @@ class H5ClickDemo extends Component {
           display: 'flex',
           justifyContent: 'center'
         },
-        input: {
+        button: {
           margin: 'auto',
           width: '55rem',
           height: '8rem',
           maxHeight: '60px',
           fontSize: 'min(4.5rem, 40px)',
-          fontFamily: 'PingFangSC-Regular, PingFang SC',
+          fontFamily: 'PingFangSC-Regular',
           fontWeight: 'bold',
           borderRadius: '10rem',
           backgroundColor: 'red',
@@ -145,7 +145,7 @@ class H5ClickDemo extends Component {
         >
           <templates is="x3d">
             <div style={this.state.style.cell}>
-              <input type="button" value="点击阅读全文" style={this.state.style.input} />
+              <button style={this.state.style.button}>点击阅读全文</button>
             </div>
           </templates>
         </qa-router-button>
