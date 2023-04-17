@@ -36,6 +36,7 @@
       data-params="{}"
       data-design-params='{"fontSize": 16,"designWidth": 1080}'
       data-click-event='{"eventName": "handleClickEvent", "eventParams": "anyString"}'
+      data-expose-event='{"eventName": "handleExposeEvent", "eventParams": "anyString"}'
       style="position:fixed; bottom: 1rem; margin:auto; width: 100%; height: 4rem;"
     >
       <templates>
@@ -192,6 +193,10 @@
     function handleClickEvent(params) {
       // 页面回调中做点击上报等逻辑
       console.log(`触发主页面回调 handleClickEvent: ${params}`)
+    }
+
+    function handleExposeEvent(params) {
+      console.log(`触发主页面回调 handleExposeEvent: ${params}`)
     }
   </script>
 </body>
