@@ -28,6 +28,7 @@
       data-params="{}"
       data-design-params='{"fontSize": 16,"designWidth": 1080}'
       data-click-event='{"eventName": "handleClickEvent", "eventParams": "anyString"}'
+      data-expose-event='{"eventName": "handleExposeEvent", "eventParams": "anyString"}'
       style="position:fixed; bottom: 1rem; margin:auto; width: 100%; height: 4rem;"
     >
       <templates>
